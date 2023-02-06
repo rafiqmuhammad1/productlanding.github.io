@@ -1,0 +1,258 @@
+body{      box-sizing: border-box; 
+           background:var(--yellow);
+           display:block;
+            font-family: 'Poppins', sans-serif;
+	         font-weight: 400;
+	        font-size:1.4rem;line-height:1.7rem;}
+	*{margin:0;padding:0;}
+	:root{ --halfwhite:#f5f6f7;
+	       --main-yellow: yellow;
+		    --light-white:#f1f1f1;
+	        --main-white: #f0f0f0;
+             --main-red: #be3144;
+            --main-blue: #45567d;
+            --main-gray: #303841; 
+		    --main-blue: blue;
+	}
+	/*nav   starts */
+	#header{position:fixed;
+	        top:0;
+			left:0; 
+			width:100%;
+			padding-left: 15px;
+			margin-right: 0;
+            display:flex;
+			flex:row wrap;
+			justify-content:space-between;
+	       align-items:center;
+		   background:var(--main-white);
+		   color: black;
+		   z-index: 10;
+		   
+	  }
+	  .logo{  width:50vw;
+	  }
+	#nav-bar{background:var(--window--color);width:50vw;    
+	       
+	}
+	#link-group{
+		        width:50vw;    
+		        display:flex;
+	            flex-direction:row; 
+				flex-wrap: wrap; 
+				justify-content:space-around;
+				align-items:center; }
+	 .nav-link  {text-decoration:none;
+				 line-height:5vw;
+				height: 5vw;
+				width:12vw;
+				text-align:center;		
+	 }
+	 
+	.active, .nav-link:hover {
+		              background-color:var(--main-blue);
+	                  border-radius:50px; 
+					  color: #f1f1f1; 
+					  
+	}
+     
+
+	
+	/*nav-bar  ends */
+	#wraping-heading{  height:30px;
+	      width: 100%;
+	}
+	/*form  starts */
+	.form-body{ height:100vh;
+	max-height:610px;
+		margin:15vh 5vh -30vh 5vh;
+	}
+	form-section{
+	}
+	
+	.title{ text-align: center;
+	font-size:5rem;
+	line-height: 5.5rem;
+	margin-top:2hv;
+	padding-bottom:20px;
+	}
+	#form{
+	}
+	.input-box{text-align:center;
+	}
+	#email{ margin:20px;;width:75%; padding:10px 0 10px 10px;font-size:1.5rem;line-height:1.75rem;
+	border-radius:5px;}
+	#submit{ transform:translate-y(5px); margin-left:25%;  text-align:center; width:50%;font-size:1.5rem;line-height:1.75rem;border-radius:5px;
+	         cursor: point;
+			 animation-name: animation2;
+			 animation-duration: 5s;
+			 animation-iteration-count: infinite;
+			 animation-delay: -5s;
+	}
+	/*form  ends */
+	#submit:hover,header:hover, h1:hover{animation-name: none;
+	}
+	
+	#blank{ height:80px;
+	      width: 100%;
+	}
+	/*features  starts */
+	#Premium_Materials, #Fast_Shipping, #Quality_Assurance{ text-align: center;
+	                                                       font-size:2rem;
+	                                                       line-height: 2.5rem;
+	}
+	.F_item {display:flex;flex:row wrape;
+	}
+	.feature-text{  position: raletive; right: 40%;width:70%;
+	         margin-left:1vw;
+	}
+	#features-section{  
+                	margin: 1% 5% 0 5%;    
+		            height:50vh;
+				    max-height:610px;
+				 
+				  }
+	/*features  ends */
+	/*video  starts */
+	#video-block{   margin-top:10%;
+	                 display:flex;
+				     flex:column wrap;
+				     justify-content:space-around;
+				     align-items: center; 
+                
+	
+				}
+	#video-section{ width:80vw;
+	             height:70vh;
+              border: 1px solid black; 	 
+				margin-bottom:10vh;   
+				border-radius: 25px;
+	}
+	#video{  width:80vw;
+	             height:70vh;
+	          
+		   max-width:100%;
+	       max-height:100%;
+	        
+			
+	
+			 
+	      
+	}
+	
+	/*video  ends */
+	/*pricing  starts */
+	#pricing-block{  display:flex;flex:row wrap;justify-content:space-around;align-items:center;
+	}
+	#pricing{ border:1px solid black; width:31%;height:60vh;
+	}
+	.price-caption{background:var(--halfwhite);text-align:center;padding:2vh;}
+	td{  margin:10px;
+	}
+	#pricingBtn{width:18vw; height:8vh;padding-left:2vw; border-radius: 8px; transform:translateX(8px);
+	}
+	.price-caption:hover, #pricingBtn:hover{background-color: blue; color: white;border-radius: 8px;
+	}
+	#pricingBtn:visited{background-color: green; color: white;
+	}
+	table{  text-align:center;margin:10px auto;
+	}
+	th,td{margin:20px auto: padding-top:10px;  padding-bottom:10px;
+	}
+	tfoot{
+	}
+	/*pricing   ends */
+		/*footer   starts */
+		footer-section{margin-bottom:20vh;
+		               margin-top:10vh;
+					   margin-top:5vh;
+					   text-align:right; 
+					   display:flex;
+					   flex:column wrap;
+					   justify-content:center;
+					   
+					   }
+		#footerlink_group, #Original_Trombones{ width:50vw; 
+		}
+		{
+		}
+			/*footer   ends */
+			
+		header, h1{ 
+		           background-color:green;
+			       color: white;
+                   border-radius:10px;
+	               animation-name: animation1;
+	               animation-duration: 5s;
+		           animation-delay: -2s;
+		           animation-iteration-count: infinite;
+	}
+		
+   @keyframes animation2 { 
+			             0%{text-align:center;
+						 margin-left:25%;
+						 width:50%;
+						 font-size:1.5rem;
+						 line-height:1.75rem;
+						 border-radius:5px;
+					     
+						  color: white;}
+					     25% {width:75%;font-size:3.5rem; line-height:3.75rem;text-align:right;background-color: red; border-radius: 550px;color: white;}
+					     50% {  font-size:1.5rem;line-height:1.75rem;text-align:center;background-color: yellow; border-radius: 50%;color: black;}
+					     75% {margin-left:0%; width:75%;font-size:3.5rem; line-height:3.75rem;text-align:left;background-color: red; border-radius: 550px;color: white;}
+					     100% {text-align:center;background-color: yellow; border-radius: 50%;color: white;}
+			}
+		
+	@keyframes animation1 { 
+			             0%{background-color: green; 
+					     border-radius: 10px;   
+						  color: white;}
+					     25% {background-color: red; border-radius: 550px;color: white;}
+					     50% {background-color: yellow; border-radius: 50%;color: black;}
+					     75% {background-color: red; border-radius: 550px;color: white;}
+					     100% {background-color: yellow; border-radius: 50%;color: white;}
+			}		
+			@media(max-width:800px){
+			              #header{display:flex;flex-direction: column;
+						  }
+						  .logo{ width:100vw;
+						  }
+						  #link-group{width:100vw;
+						  }
+						   .nav-link{width:25vw;
+						 }
+						   .form-body{ height:auto;}
+						  .title{
+							   font-size:4rem;
+	                           line-height: 5rem;
+	                           margin-top:17vh;
+							   margin-bottom:-2vh;
+						   }
+						   #submit{margin-bottom:2vh;
+	                       }
+						  #features-section{ margin-top:30vh;
+						   }
+						  .F_item{ flex-direction:column;
+						  }
+						  #Premium_Materials, #Fast_Shipping, #Quality_Assurance{ 
+						                                   text-align: center;
+	                                                       font-size:2rem;
+						                                    line-height: 1.5rem;}
+	}
+						 #footerlink_group, #Original_Trombones{ width:100%; 
+		                 }
+						 #video-section{height:50vh; margin-top: 23vh;   }     
+						 #video-section{  position: raletive; top: 40px;
+						  }
+						 #pricing-block{flex-direction:column;justify-content:space-around;
+						  }
+                          #pricing	{ width: 80vw; margin: 2vw;					 
+						  }
+			}
+			@media(max-width:576px){
+			              #link-group{display:flex;flex-direction: column;
+	                     }
+						  .nav-link{width:100vw;border-bottom:1px solid black;}
+			}
+			              .title{margin-top: 30vh;
+						  }							  
